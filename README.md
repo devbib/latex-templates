@@ -1,0 +1,4 @@
+latex-templates
+===============
+
+LaTeX templates
