@@ -1,0 +1,63 @@
+\documentclass{report}
+
+% start meta data
+\title{Title of the Work\\ Second Title Line}
+\author{Author Name\\ \texttt{author@email.edu}} 
+\date{09\slash 04\slash 2014}
+% end meta data
+
+% start header and footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{Author Name}
+\rhead{Title}
+\cfoot{\thepage} % centered footer
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+% end header and footer
+
+
+
+
+\begin{document} % start main document
+
+\maketitle % makes the title page from meta data
+
+
+
+\section{first section}
+
+
+
+\subsection{First subsection}
+
+Some equation:
+
+\begin{equation} f(x) = a \exp{\left(- { \frac{(x-b)^2 }{ 2 c^2} } \right)}+d \end{equation}
+
+
+
+
+\subsection*{Second subsection (suppress numbering)}
+
+This is an inline equation 
+$\Sigma=\mathrm{E}
+\left[
+ \left(
+ \textbf{X} - \mathrm{E}[\textbf{X}]
+ \right)
+ \left(
+ \textbf{X} - \mathrm{E}[\textbf{X}]
+ \right)^{\rm T}
+\right]$
+
+\newpage
+
+\section*{second section (suppress numbering)}
+
+\subsection*{First subsection (suppress numbering)}
+
+Some text
+
+
+\end{document} % end main document
