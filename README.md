@@ -63,6 +63,8 @@ If you structure file like in the following example, all you need to do is to ty
 
 ![](./modular-documents/images/example.png)
 
-Download the modular-document template [[modular-template.zip](https://github.com/rasbt/latex-templates/blob/master/modular-documents/modular-template.zip?raw=true)].
+Download the modular-document template [[modular-template.zip](https://github.com/rasbt/latex-templates/raw/master/modular-documents/modular_template.zip)].
+
+https://github.com/rasbt/latex-templates/raw/master/modular-documents/modular_template.zip
 
 For more details, see [LaTeX Modular Documents](http://en.m.wikibooks.org/wiki/LaTeX/Modular_Documents).
