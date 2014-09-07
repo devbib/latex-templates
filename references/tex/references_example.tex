@@ -1,0 +1,48 @@
+\documentclass{article}
+
+% start meta data
+\title{BibTeX References}
+
+\usepackage{cite}
+\usepackage{graphicx}
+
+
+\begin{document} % start main document
+
+\maketitle % makes the title page from meta data
+
+
+\section{How-To}
+
+\begin{itemize}
+
+\item Include the "cite" package at the top of your document (\textbackslash{usepackage\{cite\}}).
+\item Include the path to your .bib file via \textbackslash{}bibliography\{../references\} .
+\item Define the citation style, e.g., \textbackslash{} bibliographystyle\{plain\}. 
+
+\end{itemize}
+
+
+To insert BibTex citations properly, you need to typeset your document in the following order
+
+\begin{enumerate}
+\item pdflatex
+\item bibtex
+\item latex
+\item latex
+\end{enumerate}
+
+\section{Examples}
+
+You can insert cite keys (based on the "cite" package) via:
+
+\begin{itemize}
+\item  \textbackslash{}cite\{domingos1997optimality\}: My citation \cite{domingos1997optimality}
+\end{itemize}
+
+
+\bibliographystyle{plain}
+\bibliography{../references} % path to the .bib file (here: ../references.bib)
+
+
+\end{document} % end main document
