@@ -33,7 +33,8 @@ LaTeX templates
 
 ![Article style with headers and footers](./document-styles/images/article_header_footer.png)
 
-[[Download .tex](https://raw.githubusercontent.com/rasbt/latex-templates/master/tex/article_header_footer.tex)] [[Download PDF](https://github.com/rasbt/latex-templates/blob/master/document-styles/tex/article_header_footer.pdf?raw=true)]
+
+[[Download .tex](https://raw.githubusercontent.com/rasbt/latex-templates/master/document-styles/tex/article_header_footer.tex)] [[Download PDF](https://github.com/rasbt/latex-templates/blob/master/document-styles/tex/article_header_footer.pdf?raw=true)]
 
 
 <br>
