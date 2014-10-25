@@ -12,6 +12,12 @@ LaTeX templates
 <br>
 <br>
 
+#### [Latex Quick Tips!](./quick-tips/quick-tips.md)
+
+<br>
+<hr>
+<br>
+
 ## Basic Document Styles
 [[back to top](#sections)]
 <br>
